@@ -1,13 +1,18 @@
 import React from 'react';
+import './NavbarHeader.scss';
+import { Link } from 'react-router-dom';
 
-class NavbarHeader extends React.Component {
-  render() {
+export default class NavbarHeader extends React.Component {
+  public render() {
     return (
-      <ul>
-        <li>Test</li>
-      </ul>
+      <nav style={{ display: 'inline' }} className={'nav-bar-header'}>
+        <Link className="menu-item" to={'/home'}>
+          home
+        </Link>
+        <Link className="menu-item" to={'/colorizer'}>
+          colorizer
+        </Link>
+      </nav>
     );
   }
 }
-
-export default NavbarHeader;

@@ -1,0 +1,11 @@
+.nav-bar-header {
+  float: right;
+  .menu-item {
+    padding: 0 16px;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      background: skyblue;
+    }
+  }
+}
