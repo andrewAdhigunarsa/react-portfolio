@@ -1,9 +1,10 @@
 .nav-bar-header {
-  background-color: red;
   float: right;
+  background-color: azure;
   .menu-item {
-    padding: 0 16px;
-    color: #fff;
+    padding: 16px;
+    color: darkgrey;
+    font-size: 2rem;
     text-decoration: none;
     &:hover {
       background: skyblue;
