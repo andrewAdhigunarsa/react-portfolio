@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Vidaloka&display=swap');
+
+.title-container {
+  position: relative;
+  --maskX: 0;
+  --maskY: 50;
+  cursor: pointer;
+
+  .title-wrapper {
+    overflow-wrap: break-word;
+    position: absolute;
+    h1 {
+      font-family: 'Vidaloka', serif;
+      overflow-wrap: break-word;
+      word-break: break-all;
+
+      font-weight: bold;
+      font-size: 200px;
+    }
+    &:first-child {
+      h1 {
+        color: #8dd4d9;
+      }
+    }
+    &:last-child {
+      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      clip-path: polygon(
+        0 0,
+        calc(var(--maskX) * 1%) 0,
+        calc(var(--maskY) * 1%) 100%,
+        0 100%
+      );
+      h1 {
+        color: #d1eef0;
+      }
+    }
+  }
+}

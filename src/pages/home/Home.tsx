@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.scss';
 import { Row, Col } from 'antd';
+import Title from './title/Title';
 
 export default class Home extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class Home extends Component {
       <section className={'home'}>
         <Row>
           <Col>
-            <h3>Hello</h3>
+            <Title />
           </Col>
         </Row>
       </section>

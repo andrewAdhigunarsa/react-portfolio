@@ -1,5 +1,26 @@
-@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Raleway|Vidaloka&display=swap');
 
 .App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+p,
+span,
+div,
+article,
+section,
+input,
+textarea,
+label,
+select {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Vidaloka', serif;
 }
