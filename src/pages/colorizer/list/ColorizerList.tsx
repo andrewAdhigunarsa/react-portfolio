@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { List } from 'antd';
 // import { ColorizerItem } from './list-item/ColorizerListItem';
 
 interface ColorizerListProps {}

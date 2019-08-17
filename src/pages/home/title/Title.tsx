@@ -21,9 +21,9 @@ export default class Title extends Component<{}, TitleState> {
     //@ts-ignore
     const height = this.refs.titleContainer.clientHeight;
     //@ts-ignore
-    const ox = (e.nativeEvent.offsetX / width) * 100;
+    const ox = (e.nativeEvent.offsetX / width) * 150;
     //@ts-ignore
-    const oy = (e.nativeEvent.offsetY / width) * 100;
+    const oy = (e.nativeEvent.offsetY / width) * 150;
 
     console.log(width, height);
     console.log(e.nativeEvent);
@@ -56,10 +56,12 @@ export default class Title extends Component<{}, TitleState> {
         style={mask}
       >
         <div className="title-wrapper">
-          <h1>NDREW</h1>
+          <span className="the-N">N</span>
+          <h1>DREW</h1>
         </div>
         <div className="title-wrapper">
-          <h1>NDREW</h1>
+          <span className="the-N">N</span>
+          <h1>DREW</h1>
         </div>
       </div>
     );

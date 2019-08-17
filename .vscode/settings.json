@@ -1,0 +1,4 @@
+{
+    "reactTypeScriptToolbox.stylesheet": "scss",
+    "reactTypeScriptToolbox.test": true
+}

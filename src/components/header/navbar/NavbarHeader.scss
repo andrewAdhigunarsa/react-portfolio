@@ -1,7 +1,8 @@
 .nav-bar-header {
-  float: right;
+  z-index: 10;
   background-color: azure;
   .menu-item {
+    z-index: 10;
     padding: 16px;
     color: darkgrey;
     font-size: 2rem;
