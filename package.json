@@ -12,7 +12,7 @@
     "autoprefixer": "^9.6.0",
     "babel-plugin-relay": "^2.0.0-rc.1",
     "env-cmd": "^8.0.2",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "graphql": "^14.0.2",
     "http-proxy-middleware": "^0.19.1",
     "husky": "^1.2.0",
@@ -57,7 +57,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "homepage": "https://github.com/andrewAdhigunarsa/react-portfolio.git",
+  "homepage": "https://andrewadhigunarsa.github.io/react-portfolio/",
   "browserslist": [
     ">0.2%",
     "not dead",
