@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adhigunarsa.com",
   "dependencies": {
     "@storybook/cli": "^4.0.11",
     "@types/jest": "^23.3.10",
@@ -57,7 +58,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "homepage": "https://andrewadhigunarsa.github.io/react-portfolio/",
   "browserslist": [
     ">0.2%",
     "not dead",
