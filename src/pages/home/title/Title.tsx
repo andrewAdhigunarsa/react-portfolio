@@ -57,11 +57,11 @@ export default class Title extends Component<{}, TitleState> {
       >
         <div className="title-wrapper">
           <span className="the-N">N</span>
-          <h1>DREW</h1>
+          <h1>DREWA</h1>
         </div>
         <div className="title-wrapper">
           <span className="the-N">N</span>
-          <h1>DREW</h1>
+          <h1>DREWA</h1>
         </div>
       </div>
     );
